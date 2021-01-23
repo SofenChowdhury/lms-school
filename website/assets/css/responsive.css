@@ -1,0 +1,310 @@
+/* 1170px to 980px or 768px */
+@media screen and (max-width: 1170px) {
+[class*="col-lg"], [class*="col-md"], [class*="col-sm"], [class*="col-xs"] {
+ display:inline-block;
+ vertical-align:top;
+ margin:0 -4px 0 0;
+ float:none;
+}
+.rtl [class*="col-lg"],
+.rtl [class*="col-md"],
+.rtl [class*="col-sm"],
+.rtl [class*="col-xs"] {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 -4px;
+	float: none;
+}
+
+.top-bar .cs-user ul li ul{left:auto;right:0;}
+.cs-user-statements {overflow-x: scroll;}
+.wp-smartstudy .cs-user-statements ul{ width:900px;}
+.wp-smartstudy .cs-user-content ul.cs-shortlisted li .cs-remove-btn{ margin-top:-40px;}
+.wp-smartstudy .cs-user-courses {overflow-x: scroll;}
+.wp-smartstudy .cs-user-courses ul{ width:750px;}
+.wp-smartstudy .cs-author-info-list {overflow-x: scroll;}
+.wp-smartstudy .cs-author-info-list ul{ width:850px;}
+.wp-smartstudy .cs-courses.courses-listing .cs-price-sec{ padding-left:0;}
+.wp-smartstudy .cs-courses.courses-listing .cs-price-sec{padding-left: 0px;}
+
+.cs-section-title.center{padding:0;}
+.cs-quick-faqs ul li:first-child a{border-bottom:0;}
+.wp-smartstudy .call-actions .cell{display:inline-block;}
+.wp-smartstudy .call-actions .heading.cell{margin-bottom:10px;}
+.cs-blog.sticky .cs-media, .cs-blog.sticky .cs-blog-text{width: 100%;}
+.wp-smartstudy .cs-team.listing .cs-media{float:left;}
+.wp-smartstudy .cs-suggestions-list{width:100%;}
+}
+/* 990px to 1170px */
+@media screen and (min-width: 990px) and (max-width: 1170px) {
+ul.cs-history-slider li .cs-text {bottom: -166px;}
+.main-header [class*="col-"]{width:100%;}
+#header .cs-logo{text-align:center;padding:45px 0 0;}
+.top-bar ul.top-nav li{margin:0 4px 0 0;}
+.top-bar ul.top-nav li a{font-size:10px;}
+nav.main-navigation {padding-bottom: 25px;}
+.top-bar .cs-user ul li{padding:0 4px;}
+.top-bar .cs-user ul li a,.top-bar ul.top-nav li a{font-size:10px;}
+.cs-team-detail .section-sidebar .cs-media img{width: 100%;}
+.products .cs-media img{width: 100%;}
+.cs-footer-widgets .widget-news-letter .cs-form .input-holder input[type="email"]{padding-right:36px;}
+.cs-footer-widgets .widget-news-letter .cs-form .input-holder label{position:relative;top:0;right:0;}
+.cs-footer-widgets .widget-news-letter .cs-form .input-holder label, .cs-footer-widgets .widget-news-letter .cs-form .input-holder input[type="submit"]{width:100%;}
+.sub-header{margin-top:-188px;padding-top:200px;}
+ul.cs-top-categories li a{width:143px;}
+.cs-quick-faqs [class*="col-md"]{width:100%;}
+.cs-courses-detail .cs-courses-overview, .wp-smartstudy .cs-tabs.vertical .nav-tabs li a{padding:15px}
+.wp-smartstudy .cs-shortcode-table table thead tr th{padding:5px 15px;font-size:10px;}
+.wp-smartstudy .call-actions .cell{display:inline-block;}
+.wp-smartstudy .call-actions .heading.cell{margin-bottom:10px;}
+.wp-smartstudy .cs-buttons-style a{margin-bottom: 5px;}
+.wp-smartstudy .cs-events-masonry .grid li .cs-event.grid.fancy .cs-text .cs-event-price .cs-right-box a{width: 30px;}
+.wp-smartstudy .cs-event-share .cs-share-btn{margin-bottom: 5px;}
+.wp-smartstudy .cs-event-detail-description .cs-tags ul li{margin-bottom: 5px;}
+.blog-medium .cs-blog-holder{width: 93%;}
+.blog-medium .cs-blog-text{width: 58%;}
+ul.cs-blog-grid-slider li .cs-blog.masonry .cs-text .cs-post-comments{top:7px; right: 6px;}
+.cs-blog-masonry .grid li .cs-blog.cs-blogquote-post .cs-text p{display: none;}
+.cs-blog-masonry .grid li .cs-blog.post-without-img .cs-text .cs-post-comments, .cs-blog-masonry .grid li .cs-blog.masonry .cs-text .cs-post-comments{right: 7px;}
+}
+@media screen and (min-width: 810px) and (max-width: 990px) {
+	ul.cs-history-slider li .cs-text{bottom:-106px;}
+}
+/* 980px to 768px */
+/* If Required */
+@media screen and (max-width: 980px) {
+#header .cs-logo {padding: 20px 0;}
+.cs-partners ul li figure{text-align: center;}
+.cs-partners ul li img{width: auto;}
+.blog-medium .cs-blog-holder{width: 93%;}
+.blog-medium .cs-blog-text{width: 59%;}
+.wp-smartstudy .cs-buttons-style a{margin-bottom: 5px;}
+.wp-smartstudy .cs-event-share{margin-bottom: 10px;}
+/* Responsive Menu */
+.cs-main-nav{width:100%; position:relative;}
+.main-navigation { display: none; }
+.slicknav_menu{ display: block;margin-bottom:10px;padding-top:10px;}
+.top-bar .slicknav_menu{ display: none;}
+.cs-main-nav {position: absolute;right: 20px;top: 6px;width: 190%;z-index:2;}
+.slicknav_btn{float:right;margin:0;}
+.cs-main-nav ul { display: none; }
+.cs-main-nav ul li { width: 100%; }
+.slicknav_nav a{position:relative;}
+.slicknav_nav li:first-child span {color: rgba(255, 255, 255, 0.6);font-size: 10px; left: 57px; position: absolute; top: 9px; z-index: 999; pointer-events: none;}
+.slicknav_menu ul { display: block; }
+li.cs-search-area{display:none;}
+.cs-search-area {position: absolute;right: 120px;top: -12px;}
+.cs-logo, header.modern .cs-logo-modern, .cs-menu-slide{position:relative;z-index:10;}
+.cs-menu-slide{padding:20px 0 0;}
+.wp-smartstudy .cs-events-masonry .grid li .cs-event.grid.fancy .cs-text .cs-event-price .cs-right-box a{width: 35px;}
+/*Top Bar*/
+.top-bar ul.top-nav,.top-bar .top-nav.nav-right{text-align:center;}
+.cs-search-area{display:inline-block;}
+.slicknav_item.slicknav_row > span {display: block;font-size: 10px;line-height: 12px;margin-bottom: 8px;color:rgba(255,255,255,0.6);} 
+.slicknav_nav span.slicknav_arrow {color: #fff;display: inline-block;float: right;font-size: 16px;line-height: 30px;margin: 0 0 0 0.4em;position: absolute;right: 10px;top: 15px;}
+.cs-search-area .search-area form{margin-top:10px;}
+.cs-copyright,footer#footer .cs-social-media ul{text-align:center;}
+footer#footer .cs-social-media ul{width:100%;}
+.wp-smartstudy .cs-user-sidebar{ padding-right:20px; padding-bottom:0; margin-bottom:0; margin-right:-20px;}
+.wp-smartstudy .cs-user-content .cs-switch-holder{ margin-bottom:10px;}
+.wp-smartstudy .cs-user-content ul.cs-shortlisted li .cs-remove-btn{ margin-top:-10px;}
+.image-frame.has-border{margin-bottom:60px;}
+.cs-counter-holder li{margin-bottom:30px;}
+.cs-counter-holder li:last-child{border-right:1px solid #f4f4f4;}
+.cs-counter-holder li:last-child:after{border-right:1px solid #fdfdfd;}
+.cs-journy-timeline ul li{width:14.7%;}
+.cs-journy-timeline ul::after{width:92%;}
+.cs-journy-timeline ul{margin-left:12px;}
+.sub-header {margin-top: -67px;}
+ul.cs-top-categories li{width:32.7777%;margin:0;padding:0 10px;}
+ul.cs-top-categories li:first-child{padding:0 10px;}
+ul.cs-top-categories li a{width:100%;margin-bottom:25px;}
+.wp-smartstudy .cs-suggestions-list{width:80%;}
+.cs-courses-detail .cs-courses-overview{margin-bottom:30px;}
+.wp-smartstudy .cs-buttons-style a{margin:0 0 10px 10px;}
+.cs-blog-masonry .grid li{width:50%;}
+}
+
+/* 767px to 480px */
+@media screen and (max-width: 767px) {
+.cs-section-title.center{padding:0;}
+ul.cs-blog-grid-slider li .cs-blog.masonry .cs-text .cs-post-comments{right: 7px;}
+.cs-blog-masonry .grid li .cs-blog.post-without-img .cs-text .cs-post-comments, .cs-blog-masonry .grid li .cs-blog.masonry .cs-text .cs-post-comments{right: 7px;}
+.top-bar .slicknav_menu{ display: block;position:absolute;z-index:20;}
+.wp-smartstudy .cs-events-masonry .grid li{width: 50%;}
+.top-nav { display: none; }
+.top-bar .slicknav_menu .slicknav_btn{float:left;border:solid 1px #fff !important;width:43px;top:-3px;z-index:20;}
+.top-bar .slicknav_menu .slicknav_icon-bar{border:solid 1px #fff !important;}
+.top-bar .slicknav_menu .slicknav_menutxt{color:#FFF !important}
+.top-bar .cs-user{margin-top:-22px;}
+.slicknav_nav li,.slicknav_nav li a{border-bottom:0;}
+.slicknav_nav li:last-child a{border-bottom:1px solid rgba(225, 225, 225, 0.5);}
+.cs-search-area .search-area form{right:-20px;}
+.cs-search-area .search-area form:before{right:30px;}
+.cs-section-title.center{padding:0;}
+.wp-smartstudy .cs-courses.courses-listing .cs-text{overflow: inherit;}
+.wp-smartstudy .cs-courses.courses-listing .cs-media{margin: 0 0 20px 0; width: 100%;}
+.wp-smartstudy .cs-sorting-list .cs-select-holder{width: 170px;}
+.wp-smartstudy .cs-review-box{width: 65%;}
+.wp-smartstudy .cs-review-summary{width: 24%; margin-left: 15px;}
+.wp-smartstudy .cs-user-content ul.cs-shortlisted li .cs-remove-btn{ margin-top:-40px;}
+.wp-smartstudy .cs-team.listing .cs-media{ vertical-align:top;}
+.wp-smartstudy .cs-author-info .alignleft, .wp-smartstudy .cs-author-info .alignright{ width:100%;}
+.wp-smartstudy .cs-courses.courses-listing .cs-text{ width:100%; padding-top:20px;}
+.cs-journy-timeline{padding:0 50px;}
+.cs-journy-timeline ul li{width:14%;}
+.cs-journy-timeline ul::after{width:89%;}
+.cs-journy-timeline ul{margin-left:14px;}
+.image-frame.has-border .cs-media figure:after{left:-10px;bottom:-10px;}
+.image-frame.has-border{margin-bottom:40px;}
+.wp-smartstudy .cs-team.listing .cs-media{width:100% !important;margin-bottom:20px;display:block;}
+.wp-smartstudy .cs-team.listing .cs-text{width:100% !important;padding-left:0 !important;}
+.wp-smartstudy .cs-suggestions-list{width:91%;}
+.wp-smartstudy .cs-sorting-list .cs-select-holder{width:146px;}
+.wp-smartstudy .cs-courses.courses-listing{margin:0 20px;}
+.wp-smartstudy .messagebox-v2 .buy-now-btn{position:relative;top:0;right:0;margin-top:20px;display:inline-block;}
+.cs-repeated-partners li{padding:inherit;margin:0 -4px 0 0;text-align:center;}
+#cs-construction{overflow-y:scroll}
+.cs-news-letter,.cs-construction .input-holder input[type="submit"], .cs-construction .input-holder,.news-letter-heading, .news-letter-form{width:100%;position:relative;}
+.news-letter-form, .news-letter-heading{text-align:left;}
+.blog-medium .cs-blog-text{width: 100%; padding: 20px 0 0 0;}
+.blog-medium .cs-blog-holder{width: 92%;}
+.cs-blog-masonry .grid li{width:100%;}
+.cs-partners ul li figure{text-align: center;}
+.cs-partners ul li img{width: auto;}
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+	ul.cs-history-slider li .cs-text{bottom:-80px;}
+	ul.cs-top-categories li{width:49%; margin:0;padding:0 10px;}
+}
+/* 480px to 320px */
+@media screen and (max-width: 480px) {
+ul.cs-top-categories li{width:49% !important;}	
+.cs-partners ul li figure{text-align: center;}
+.cs-partners ul li img{width: auto;}
+.cs-blog-masonry .grid li{width: 100%;}
+ul.cs-blog-grid-slider li .cs-blog.masonry .cs-text .cs-post-comments{right: 7px;}
+.cs-comments .children{padding-left: 0px;}
+.blog-large .post-options{float: left; margin-bottom: 5px;}
+.blog-medium .cs-blog-holder{width: 82%;}
+.blog-medium .cs-blog-text{width: 100%; padding: 30px 0 0 0;}
+.blog-medium .cs-blog-holder .cs-media img, .blog-medium .cs-media{width: 100%;}
+.wp-smartstudy .cs-event-detail-description .cs-tags ul li a{margin-bottom: 5px;}
+.wp-smartstudy .cs-event-detail-date-time .cs-add-date{top:-35px; right: 15px;}
+.cs-main-nav {position: absolute;right: 20px;top: 6px;width: 185%;z-index:2;}
+.wp-smartstudy .cs-event.list .cs-text{overflow: inherit;}
+.wp-smartstudy .cs-event.list .cs-media{width: 100%; margin: 0 0 10px 0;}
+.wp-smartstudy .cs-events-masonry .grid li{width: 100%;}
+.wp-smartstudy .cs-courses.courses-listing .cs-price-sec{width: 50%;}
+.wp-smartstudy .cs-courses.courses-listing .cs-post-title{width: 100%;}
+.cs-search-area .search-area form{right:-105px;}
+.cs-search-area .search-area form:before{right:115px;}
+.cs-modal .modal-dialog{width: 100%; margin-left: 0px;}	
+.cs-modal .modal-footer .cs-user-social ul li{margin-bottom: 5px;}
+.wp-smartstudy .cs-courses.courses-listing .cs-price-sec{padding-left: 0px;}
+.wp-smartstudy .cs-courses.courses-listing .cs-media{margin: 0 0 20px 0; width: 100%;}
+.wp-smartstudy .cs-pagination .pagination li a{margin-bottom: 1px;}
+.wp-smartstudy .cs-sorting-list .cs-select-holder, .wp-smartstudy .cs-sorting-list .cs-package-list{margin: 0 0 5px 0;}
+.wp-smartstudy .cs-sorting-list .cs-left-side{width: 62%;}
+.wp-smartstudy .cs-sorting-list .cs-select-holder{width: 100%;}
+.wp-smartstudy .cs-courses.courses-simple li .cs-courses-name{width: 100%;}
+.wp-smartstudy .cs-courses.courses-simple li .cs-courses-date, .wp-smartstudy .cs-courses.courses-simple li .cs-courses-level, 
+.wp-smartstudy .cs-courses.courses-simple li .cs-price{width: 33%;}
+.wp-smartstudy .cs-review-item .label{width: 20%;}
+.wp-smartstudy .cs-review-item .cs-item-list{width: 80%;}
+.wp-smartstudy .cs-review-box{width: 100%; margin-right: 0px; margin-bottom: 20px;}
+.wp-smartstudy .cs-review-summary{width: 100%;}
+.wp-smartstudy .cs-accordion-list .panel-heading .cs-type-btn{top: 5px; display: inline-block; margin-bottom: 5px;}
+.wp-smartstudy .cs-user-content ul.cs-shortlisted li .cs-remove-btn{ margin-top:-45px;}
+.wp-smartstudy blockquote {padding: 50px 80px;}
+.cs-journy-timeline{padding:0;}
+ul.cs-top-categories li{width:49.3333%;}
+.wp-smartstudy .cs-suggestions-list{width:88%;}
+.wp-smartstudy .cs-sorting-list .cs-package-list{width:100%;}
+.wp-smartstudy .cs-sorting-list .cs-package-list li{width:32.555%;}
+.wp-smartstudy .messagebox button{top:24px;}
+.wp-smartstudy .cs-tabs.vertical .nav-tabs li a{padding:15px}
+.cs-shortcode-table{overflow-x:scroll;margin-bottom:20px;}
+.cs-shortcode-table table{max-width:600px;width:600px;}
+.news-letter-form, .news-letter-heading{float:none;width:100%;}
+.cs-blogsmall-slider button, .cs-teamlist-slider button{top:-55px;}
+.wp-smartstudy .cs-author-info .alignright{text-align: left;}
+ul.cs-history-slider li .cs-text{bottom: -106px;}
+.cs-shop-filters ul{ text-align:center;}
+.single-product div.product .images{ width:100%; margin:0 0 20px 0 !important;}
+.single-product div.product .entry-summary{ overflow:visible;}
+.wp-smartstudy .cs-instructor .cs-courses.courses-listing .cs-price-sec{ width:100%; padding:0; text-align:left;}
+.wp-smartstudy .cs-courses.courses-listing .cs-price-sec .cs-courses-price{ display:inline-block;}
+.wp-smartstudy .cs-accordion-list .panel-title a{ padding-right:100px;}
+.wp-smartstudy .cs-author-info-list {overflow: visible;}
+.wp-smartstudy .cs-author-info-list ul {width: auto;}
+.wp-smartstudy .cs-user-detail .cs-author-info-list li {margin: 0 0 20px 15px;padding: 0; border:none;}
+.wp-smartstudy .cs-sorting-list .cs-caption-select{width:100%;}
+.wp-smartstudy .cs-sorting-list .cs-caption-select label{padding-right:0;width:86%;}
+.cs-column-text h1 {font-size: 38px !important;}
+.top-bar .cs-user{margin-left:0;}
+.top-bar .slicknav_menu .slicknav_btn{width:41px;}
+.top-bar .cs-user > ul > li:nth-child(3) {border: 0 none; display: block; text-align: right; width: 100%;padding-top:12px;}
+.top-bar .cs-user > ul > li:nth-child(2){border-right:1px solid rgba(255, 255, 255, 0.3);}
+.cs-search-area .search-area form{width:290px;right:0;}
+.cs-search-area .search-area form::before {right: 10px;}
+.slicknav_btn{float:left;}
+.cs-search-area{right:0;}
+#header .cs-logo{text-align-last:center;}
+.cs-main-nav{width:100%;position:relative;top:0;right:0;}
+#header .cs-logo{text-align:center;padding:20px 0 10px;}
+header .col-xs-6{width:100%;}
+}
+@media screen and (max-width: 360px) {
+.cs-blog-masonry .grid li .cs-blog.cs-blogquote-post .cs-text p{display: none;}
+.cs-blog-detail .post-author{width: 100%;}
+.cs-blog-detail .post-options{float: left;}
+.cs-about-author .cs-media{width: 100%; margin-bottom: 10px;}
+.cs-about-author .cs-media figure img{width: 100%;}
+.cs-about-author .cs-text{overflow: inherit;}
+
+.wp-smartstudy .cs-course-slider .slick-prev{right: 34px;}
+.wp-smartstudy .cs-course-slider .slick-next{right: 4px;}
+
+.cs-main-nav{width:100%;position:relative;top:0;right:0;}
+.slicknav_menu .slicknav_icon-bar {font-size:17px;}
+.top-bar .cs-user{margin-left:0;}
+.top-bar .slicknav_menu .slicknav_btn{width:41px;}
+.top-bar .cs-user > ul > li:nth-child(3) {border: 0 none; display: block; text-align: right; width: 100%;padding-top:12px;}
+.top-bar .cs-user > ul > li:nth-child(2){border-right:1px solid rgba(255, 255, 255, 0.3);}
+.cs-search-area .search-area form{width:290px;right:0;}
+.cs-search-area .search-area form::before {right: 10px;}
+.slicknav_btn{float:left;}
+.cs-search-area{right:0;}
+#header .cs-logo{text-align-last:center;}	  
+.wp-smartstudy .cs-courses.courses-listing .cs-price-sec .cs-courses-price{font-size: 20px;}
+.wp-smartstudy .cs-user-content ul.cs-shortlisted li .cs-media {margin-bottom: 30px;margin-right: 0;}
+.wp-smartstudy .cs-user-content ul.cs-shortlisted li .cs-text {width:100%;}
+.wp-smartstudy .cs-user-content ul.cs-shortlisted li .cs-remove-btn{ margin-top:10px;}
+.cs-journy-timeline ul{margin-left:6px;}
+.cs-journy-timeline ul::after{width:81%;}
+.cs-journy-timeline ul li{width:12%;}
+.cs-journy-timeline ul li a{font-size:12px;}
+.sub-header {margin-top: -114px;}
+ul.cs-top-categories li, .nav-tabs > li, .wp-smartstudy .cs-tabs.vertical .nav-tabs, .wp-smartstudy .cs-tabs.vertical .tab-content{width:100%;}
+.wp-smartstudy .cs-tabs .nav-tabs li.active a{margin-top:0;}
+.cs-faq-form .input-holder,.cs-construction .input-holder,.cs-error-content .input-holder{width:100%;}
+.cs-error-content em{ font-size:20px;}
+.cs-error-content p{font-size:13px !important;}
+.cs-error-content .input-holder input[type="submit"]{ padding:8px;}
+#cs-construction{ position:static;}
+.cs-construction h1, .cs-construction h1 a{ font-size:25px !important;}
+.cs-construction{ padding:40px 15px 47px;}
+ul.cs-history-slider li .cs-text{bottom: -136px;}
+.wp-smartstudy .cs-browse-holder {clear: both;float: none;margin-left: 0; padding-top: 9px; text-align: center;}
+.wp-smartstudy .profile-pic figure { margin: 0 auto;}
+.wp-smartstudy .profile-pic {float: none;}
+.wp-smartstudy .cs-user-detail .cs-author-info-list li {margin: 0;padding: 0; border:none; width:100%;}
+.wp-smartstudy .cs-sorting-list .cs-caption-select label{padding-right:0;width:80%;}
+}
+@media screen and (max-width: 320px) {
+.cs-journy-timeline ul li a {padding-left: 4px;}
+.wp-smartstudy .cs-list-view li{margin-left:4px;}
+ul.cs-history-slider li .cs-text{bottom: -166px;}
+.wp-smartstudy .cs-sorting-list .cs-caption-select label{padding-right:0;width:75%;}
+}

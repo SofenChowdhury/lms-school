@@ -1,0 +1,69 @@
+/* Widget Links Style */
+.cs-widget-links {border: 1px solid #ebebec; margin: 0 0 20px; padding: 0 20px;background:#fff;}
+.cs-widget-links ul {margin:0;}
+.cs-widget-links li {
+    list-style: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 5px 0;
+    position: relative;
+}
+.cs-widget-links li::before {
+	position: absolute;
+	right: -20px;
+	top: 6px;
+	content: "\ec2f";
+	font-family: "icomoon";
+	font-size: 10px;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	visibility: hidden;
+	opacity: 0;
+}
+.cs-widget-links li:after {position:absolute; left: -20px; top:0; content:""; width:2px; height:0; -moz-transition: all 0.3s ease-in-out;	-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;	-webkit-transition: all 0.3s ease-in-out;	transition: all 0.3s ease-in-out; visibility:hidden; opacity:0;}
+.cs-widget-links li a {text-decoration:none; outline:none; font-size:13px; color:#555; font-weight:700;}
+.cs-widget-links li:last-child {border-bottom:none; margin-bottom:0;}
+.cs-widget-links li:hover:before {opacity:1; visibility:visible; right:0;} 
+.cs-widget-links li:hover:after {height:100%; opacity:1; visibility:visible;}
+/* Widget Links Style End */
+/* Widget  Search Style */
+.widget-categories ul li a{font-family: 'Montserrat', sans-serif;}
+.widget ul{padding: 0px; margin: 0px;}
+.widget ul li{list-style: none;}
+.widget ul li a{text-decoration: none; outline: none; }
+.widget {margin-bottom: 30px;}
+.widget .widget-title h6{margin-bottom:0px;}
+.widget .widget-title{margin-bottom: 15px;}
+.widget-search form input[type="text"]{background-color: #fff; height: 46px; border-color: #f6f6f6; font-size: 12px; color: #aaa;}
+.widget-search form{position: relative;}
+.widget-search form label{position: absolute; right: 0px; top: 0; width: 46px; height: 47px;}
+.widget-search form label:before{content: "\f002"; position: absolute; left: 12px; top: 9px; font-family: "icomoon" !important; font-size: 20px; color: #fff; cursor: pointer;}
+.widget-search form label input[type="submit"]{text-indent: -9999px; width: 46px; height: 47px; border:none;}
+/* Widget Categories Style */
+.widget-categories ul li:last-child{ border-bottom:1px solid #f6f6f6;}
+.widget-categories ul li{list-style: none; padding: 6px 0 6px 15px; border-top:1px solid #f6f6f6; position:relative;}
+.widget-categories ul li a{font-size: 13px; color: #555;}
+.widget-categories ul li:before{content: ""; position: absolute; left: 0px; top: 19px; width: 6px; height: 6px; background-color: #aaaaaa; border-radius: 100%;}
+/* Widget Lastest News Style */
+.widget-latest-news ul li .cs-media{ float: left; margin-right: 15px;}
+.widget-latest-news ul li .cs-media figure, .widget-latest-news ul li .cs-media figure img{border-radius: 100%;}
+.widget-latest-news ul li .post-date{font-size: 12px; color: #aaa;}
+.widget-latest-news ul li:last-child{margin-bottom: 0px;}
+.widget-latest-news ul li {margin-bottom: 15px;}
+.widget-latest-news ul li .cs-text{overflow: hidden; padding-bottom: 10px; border-bottom: 1px solid #f8f8f8;}
+.widget-latest-news ul li:last-child .cs-text{border-bottom: none;}
+.widget-latest-news ul li .post-title h6{margin-bottom: 0px;}
+.widget-latest-news ul li .post-title h6, .widget-latest-news ul li .post-title h6 a{font-weight: 400 !important; text-transform: capitalize !important;}
+/* Widget Tags Style */
+.widget-tags{float: left; width: 100%;}
+.widget-tags ul{margin:0 0 0 -8px; padding: 0px;}
+.widget-tags ul li{float: left;}
+.widget-tags ul li a{display: block; font-size: 11px; color: #555; padding: 8px 12px; background-color: #f9f9f9; border-radius: 3px; margin: 0 0 8px 8px; line-height: 18px;}
+.widget-tags ul li a:hover{color: #fff;}
+/* Widget Archive Style */
+.widget-archive .cs-select-holder select{height: 45px; border-color: #f6f6f6; background-color: #fff; font-size: 13px; color: #aaa;}
+.widget-archive .cs-select-holder{position: relative;}
+.widget-archive .cs-select-holder:after{content: "\e313"; position: absolute; right: 0px; top:0; width: 42px; height: 47px; background-color: #f9f9f9; font-family: "icomoon" !important; display: inline-block; text-align: center; line-height: 48px; font-size: 14px; color: #aaa; pointer-events:none;}
+.widget-archive .cs-select-holder select option{padding: 6px 6px;}

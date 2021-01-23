@@ -1,0 +1,74 @@
+@extends('layouts.SMS-APP')
+@section('content')
+<div class="container-fluid">
+    <div class="row clearfix">
+        <div class="col-md-12">
+            <div class="card">
+                 <div class="header">
+                    <div class="row">
+                        <div class="col-lg-6" style="float: left;">
+                            <h2>Add {{ $title }}</h2>
+                        </div>
+                        <div class="col-lg-6" style="float: right;">
+                            <a href="{{ route('syllabuses') }}" class="btn btn-primary  pull-right"> <i class="fa fa fa-list-alt"></i> {{ $title }} List</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="body">
+                    @include('includes.messages')
+                    <form id="basic-form" action="{{route('submitSyllabusesForm')}}" method="post" validate enctype="multipart/form-data">
+                        @csrf()
+                        <div class="row">
+                            <div class="col-md-12">
+                               <div class="col-md-2">
+                                    <p>Title* </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="sellabus_title" class="form-control" >
+                                </div>
+                            </div>                                    
+                            <div class="col-md-12">
+                               <div class="col-md-2">
+                                    <p>Description </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <textarea type="text" name="sellabus_description" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                               <div class="col-md-2">
+                                    <p>File* </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="file" name="sellabus_file" class="form-control" >
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                               <div class="col-md-2">
+                                    <p>Class *  </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <select  name="sellabus_class_id" class="form-control">
+                                        <option value="">Select Class</option>
+                                        @foreach($classes as $key)
+                                            <option value="{{$key->class_id}}">{{$key->class_name}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="col-md-12">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-default">Add</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

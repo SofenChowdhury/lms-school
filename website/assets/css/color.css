@@ -1,0 +1,536 @@
+/*Theme Colors Classes*/
+
+
+/*Theme Colors*/
+
+.cs-color,
+.active>a,
+.active>a:hover,
+.active>a:focus,
+footer#footer a:hover,
+#header .main-navigation ul>li:hover>a,
+#header .main-navigation ul li.menu-item-has-children a:after,
+.mm-toggle i,
+#header.modern .main-navigation ul li.menu-item-has-children a:hover:after,
+#header .main-navigation ul li.menu-item-has-children:hover>a:after,
+#header .top-bar .cs-user ul li ul li:after,
+.top-bar .cs-user ul li ul li a i,
+#header .cs-modal .cs-user-signup a,
+#header .cs-modal .cs-user-signup a:hover,
+#header .cs-modal .btn-forgot-pass:hover,
+#header .cs-modal .modal-footer>a:hover,
+footer#footer .cs-footer-nav .footer-nav ul li a:hover,
+footer#footer .copyright-text p a,
+footer#footer .cs-social-media ul li a:hover i,
+.slicknav_menu .slicknav_menutxt,
+.cs-services.top-center:hover .cs-text h5 a,
+.cs-journy-timeline ul li a:hover,
+#header.modern .main-navigation ul li.menu-item-has-children:hover>a::after,
+.wp-smartstudy .cs-team.grid:hover .cs-text h5 a,
+blockquote p:before,
+.cs-widget-links li:before,
+.cs-widget-links li a:hover,
+ul.cs-breadcrumb li,
+ul.cs-breadcrumb li a,
+.wp-smartstudy .cs-usser-account-list ul li a:after,
+.wp-smartstudy .cs-usser-account-list ul li:hover a,
+.wp-smartstudy .cs-usser-account-list ul li.active a:after,
+.wp-smartstudy .cs-logout:hover,
+.wp-smartstudy .cs-logout:after,
+.wp-smartstudy .cs-user-content ul.cs-shortlisted li .cs-text h5 a:hover,
+.wp-smartstudy .cs-list-view li a:hover,
+.wp-smartstudy .cs-pagination .pagination>li>a:hover,
+.wp-smartstudy .cs-pagination .pagination>li>span:hover,
+.wp-smartstudy .cs-pagination .pagination>li>a:focus,
+.wp-smartstudy .cs-pagination .pagination>li>span:focus,
+.wp-smartstudy .cs-faqs-list .panel-title a:before,
+.wp-smartstudy .cs-faqs-list .panel-title a,
+.wp-smartstudy .cs-courses.courses-listing .cs-post-title h2 a:hover,
+.wp-smartstudy .courses-grid .cs-post-title h5 a:hover,
+.wp-smartstudy .cs-courses.courses-simple li h6 a:hover,
+.blog-grid .cs-readmore-btn:after,
+.blog-grid .cs-readmore-btn:hover,
+.widget-categories ul li:hover a,
+.widget-latest-news ul li .post-title h6 a:hover,
+.cs-comments ul li .cs-text .cs-replay-btn:hover,
+.cs-blog-masonry .grid li .cs-blog.masonry .cs-text .cs-post-title h2 a:hover,
+.wp-smartstudy .cs-event.list .cs-text .cs-post-title h3 a:hover,
+.cs-events-masonry .grid li .cs-event.grid.simple .cs-text .cs-post-title h5 a:hover,
+.wp-smartstudy .cs-event-detail-description .cs-tags ul li a:hover,
+.wp-smartstudy .cs-event-detail-cost .cs-event-price a:hover,
+.wp-smartstudy .cs-event-detail-speakers .cs-speaker-post .cs-text .cs-view-profile:hover,
+.wp-smartstudy .cs-event-detail-speakers .cs-speaker-post .cs-text .cs-post-title h4 a:hover,
+.wp-smartstudy .cs-event-detail-speakers ul.cs-social-media li a:hover,
+.wp-smartstudy .cs-event-share ul.cs-nav li a:hover,
+.cs-shortcode-accordion .panel-heading a:before,
+.cs-shortcode-accordion .panel-heading a,
+.cs-dropcap-two p:first-letter,
+.mobile-menu .expand,
+.mobile-menu .social i,
+.widget_product_categories li a:hover,
+.woocommerce ul.cart_list li a:hover,
+.woocommerce ul.product_list_widget li a:hover,
+.woocommerce .products li .cs-post-title h5 a:hover,
+.blog-grid .post-title h6 a:hover,
+.blog-grid .post-title h5 a:hover,
+.wp-smartstudy .widget-recent-blog .widget-post-title a:hover,
+.wp-smartstudy .cs-events-masonry .grid li .cs-event.grid.fancy .cs-text .cs-post-title h5 a:hover,
+.wp-smartstudy .cs-events-masonry .grid li .cs-event.grid.modren .cs-text .cs-post-title h5 a:hover,
+.wp-smartstudy .cs-recent-event-widget ul li .cs-recrnt-post .cs-text h6 a:hover,
+.cs-blog .post-author span a:hover,
+.cs-blog-detail .post-author span a:hover,
+.cs-blog .post-options .post-likes a:hover,
+.cs-blog .post-options .post-comments a:hover,
+.post-title a:hover,
+ul.cs-blog-grid-slider li .cs-blog.masonry .cs-text .cs-post-title h2 a:hover,
+.cs-blog-detail .post-options span a:hover,
+.cs-blog-masonry .grid li .cs-blog.post-without-img .cs-text .cs-post-title h2 a:hover,
+.cs-blog-masonry .grid li .cs-blog.cs-slider-post .cs-text .cs-post-title h2 a:hover,
+.cs-blog-masonry .grid li .cs-blog.cs-blogquote-post .cs-text .cs-post-title h3 a:hover,
+.cs-contact-fancy.center .cs-text h5 a:hover,
+.cs-services.top-left .cs-text h5 a:hover,
+.wp-smartstudy .cs-listing-filters li .checkbox label:hover {
+	color: #88c238 !important;
+}
+
+
+/*Theme Background Colors*/
+
+.cs-bgcolor,
+.chosen-container-multi .chosen-choices li.search-choice,
+.chosen-container .chosen-results li.highlighted,
+#header .main-navigation ul ul>li:hover,
+.slicknav_nav a,
+.slicknav_menu .slicknav_icon-bar,
+.cs-services.top-center:hover .cs-media,
+.cs-journy-timeline ul li a:before,
+.cs-journy-timeline ul li a:hover:after,
+.cs-journy-timeline ul li.active a:after,
+.cs-journy-timeline ul li.active a:before,
+ul.cs-testimonial .cs-media figure figcaption:after,
+.cs-widget-links li:after,
+ul.cs-breadcrumb li:after,
+.cs-courses-detail .cs-section-title:before,
+.wp-smartstudy .cs-sorting-list .cs-package-list li a:hover,
+.wp-smartstudy .cs-listing-filters li input[type="checkbox"]:checked+label:after,
+.mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.cs-courses-detail .cs-section-title:before,
+.cs-team-detail .cs-section-title:before,
+.cs-blog-grid-slider button:hover,
+.widget-search form label input[type="submit"],
+.widget-categories ul li:hover:before,
+.widget-tags ul li a:hover,
+.cs-tags ul li a:hover,
+.wp-smartstudy .cs-event-filters li input[type="checkbox"]:checked+label:after,
+.responsive-calendar .day a:hover,
+.wp-smartstudy .cs-event.list .cs-text .cs-event-price a:hover,
+.wp-smartstudy .cs-event-detail-tabs ul.nav-tabs li:hover a,
+.wp-smartstudy .cs-event-detail-tabs ul.nav-tabs li.active a,
+.wp-smartstudy .cs-share-btn:hover,
+.cs-shortcode-accordion.fancy .panel-heading a,
+.cs-shortcode-table table thead tr th,
+.cs-shortcode-accordion.box .panel-heading a:before,
+.cs-dropcap-one p:first-letter,
+.wp-smartstudy .cs-teamlist-slider .slick-prev:hover,
+.wp-smartstudy .cs-teamlist-slider .slick-next:hover,
+.cs-blogsmall-slider button:hover,
+.cs-bloggrid-slider-sm button:hover,
+.mobile-menu .active,
+.widget_price_filter .slider-selection,
+.mobile-menu .input-group-btn>.btn,
+.mobile-menu li>a:hover,
+.mobile-menu li:hover>.expand,
+.mobile-menu li:hover>a,
+.mobile-menu li>li:hover {
+	background-color: #88c238 !important;
+}
+
+
+/*Theme Border Colors*/
+
+.csborder-color,
+.wp-smartstudy .cs-review-summary .review-average-score,
+.slicknav_btn,
+.slicknav_menu .slicknav_icon-bar,
+.cs-blog-detail blockquote.fancy,
+.cs-comment-form form .input-holder input[type="text"]:focus,
+.cs-comment-form form .input-holder textarea:focus,
+.cs-btn.has-border,
+.wp-smartstudy blockquote.fancy,
+.wp-smartstudy .cs-contact-form .input-holder input:focus,
+.wp-smartstudy .cs-contact-form .input-holder textarea:focus,
+.wp-smartstudy input:focus,
+.wp-smartstudy textarea:focus {
+	border-color: #88c238 !important;
+}
+
+
+/*Theme Colors Classes*/
+
+
+/*Theme webkit options border-radius*/
+
+.input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+.main-navigation ul ul,
+.top-bar .cs-user ul li ul,
+ul.cs-pricetable .pricetable-holder,
+ul.cs-pricetable .pricetable-holder .cs-price a.cs-button,
+.cs-tags ul li a {
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+.wp-smartstudy .cs-sorting-list,
+.wp-smartstudy .widget.cs-widget-links .cs-button,
+.blog-grid .post-comments {
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+
+
+/*Theme webkit options transition*/
+
+.transition-kit,
+.main-navigation ul ul,
+#header .main-navigation ul li.menu-item-has-children a:after,
+#header .main-navigation ul ul li,
+.top-bar .cs-user ul li ul,
+#header .top-bar .cs-user ul li ul li:after,
+footer#footer .cs-social-media ul li a i,
+.wp-smartstudy .cs-usser-account-list ul li a:after,
+.wp-smartstudy .cs-logout:after,
+.wp-smartstudy .cs-sorting-list .cs-package-list li a,
+.wp-smartstudy .cs-list-view li a,
+.wp-smartstudy .cs-pagination .pagination li a:before,
+.wp-smartstudy .cs-pagination .pagination li a:hover:before,
+.wp-smartstudy .cs-listing-filters li input[type="checkbox"]:checked+label:after,
+.cs-services.top-center .cs-media figure i,
+.cs-services.top-center .cs-media,
+.cs-journy-timeline ul li a:before,
+.cs-journy-timeline ul li a:after,
+ul.cs-testimonial .cs-media figure figcaption:after,
+ul.cs-testimonial .cs-media figure figcaption .cs-text p,
+ul.cs-testimonial .cs-media figure figcaption .cs-text .cs-media,
+ul.cs-testimonial .cs-media figure figcaption .cs-text .cs-info,
+.cs-blog-grid-slider button,
+.widget-categories ul li:before,
+.widget-categories ul li a,
+.widget-tags ul li a,
+.cs-tags ul li a,
+.cs-comments ul li .cs-text .cs-replay-btn,
+.cs-comment-form form .input-holder input[type="text"]:focus,
+.cs-comment-form form .input-holder textarea:focus,
+.wp-smartstudy .cs-teamlist-slider button,
+.cs-blogsmall-slider button,
+.cs-bloggrid-slider-sm button,
+.mobile-menu li .expand,
+.mobile-menu li li {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+/*Theme webkit options box shadow*/
+
+.box-shadow-kit,
+.main-header,
+.main-navigation ul ul,
+.top-bar .cs-user ul li ul {
+	-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/*Theme webkit options text shadow*/
+
+.text-shadow-kit {
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/*Theme body and paragraph Colors*/
+
+body,
+.main-section p,
+.mce-content-body p {
+	font: Normal 14px/26px "Open Sans", sans-serif;
+	letter-spacing: 1px;
+	text-transform: none;
+	color: #555555 !important;
+}
+
+header .logo {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+
+/*Theme Navigation Colors*/
+
+#header .navigation>ul>li>a,
+#header .navigation>ul>li {
+	font: 700 13px/19px "Open Sans", sans-serif !important;
+	letter-spacing: 2px !important;
+	text-transform: uppercase !important;
+}
+
+
+/*Theme Heading Colors*/
+
+h1,
+h1 a {
+	font: 700 28px/36px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: uppercase !important;
+	color: #333333 !important;
+}
+
+h2,
+h2 a {
+	font: 700 22px/28px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: uppercase !important;
+	color: #333333 !important;
+}
+
+h3,
+h3 a {
+	font: 700 20px/26px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: capitalize !important;
+	color: #333333 !important;
+}
+
+h4,
+h4 a {
+	font: 700 18px/24px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: capitalize !important;
+	color: #333333 !important;
+}
+
+h5,
+h5 a {
+	font: 700 16px/22px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: capitalize !important;
+	color: #333333 !important;
+}
+
+h6,
+h6 a {
+	font: 700 14px/20px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: capitalize !important;
+	color: #333333 !important;
+}
+
+.cs-section-title h2 {
+	font: 700 20px/26px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: uppercase !important;
+}
+
+.cs-post-title h3 a,
+.cs-post-title h2 a {
+	font: 700 18px/28px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: capitalize !important;
+}
+
+.cs-page-title h1 {
+	font: 700 28px/36px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: uppercase !important;
+	color: #333333 !important;
+}
+
+.widget .widget-title h5 {
+	font: 700 14px/20px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: uppercase !important;
+	color: #333 !important;
+}
+
+.widget .post-title h6,
+.widget .post-title h6 a {
+	font: 700 12px/18px "Montserrat", sans-serif !important;
+	letter-spacing: 1px !important;
+	text-transform: uppercase !important;
+	color: #333 !important;
+}
+
+
+/*Theme Navigation Colors*/
+
+#header .top-bar a:hover,
+#header .main-navigation ul ul li:hover>a,
+#header .top-bar a,
+.top-bar ul.top-nav.nav-right li:after,
+#header.modern .main-navigation ul a,
+#header.modern .main-navigation ul li.menu-item-has-children a::after,
+#header.modern .mm-toggle i,
+#header.modern .main-navigation ul ul li:hover>a,
+#header.modern .main-navigation ul ul li.menu-item-has-children:hover a:after,
+.cs-user-login>a:after,
+#header.modern .cs-search-area .search-area a,
+.modern .slicknav_menu .slicknav_menutxt {
+	color: #FFF !important;
+}
+
+#header .main-navigation ul a,
+#header .main-navigation ul li.menu-item-has-children a:after,
+#header.modern .main-navigation ul ul li a,
+#header.modern .main-navigation ul ul li.menu-item-has-children a::after,
+#header .top-bar .cs-user-login ul li a {
+	color: #333333 !important;
+}
+
+.modern .slicknav_btn,
+.modern .slicknav_menu .slicknav_icon-bar {
+	border: 1px solid #FFF !important;
+}
+
+.cs-footer-widgets .widget-section-title h6 {
+	font-size: 12px !important;
+	line-height: 15px !important;
+	text-transform: uppercase !important;
+}
+
+.navigation>ul ul li>a {
+	color: #bebebe !important;
+}
+
+.navigation>ul ul li>a:hover {
+	color: #55A747 !important;
+}
+
+.navigation>ul>li:hover>a,
+.navigation>ul>li.current-menu-ancestor>a,
+.navigation>ul>li.current-menu-parent>a,
+.navigation>ul>li.current_page_item>a,
+.navigation>ul>li.current-menu-parent>ul.sub-dropdown>,
+.navigation ul li ul.sub-dropdown li.current-menu-parent.current-menu-parent>a,
+.navigation ul li ul.sub-dropdown li.current-menu-parent .navigation>ul>li.parentIcon:hover>a:before {
+	background-color: #55A747 !important;
+}
+
+.navigation>ul>li>a {
+	color: #555555 !important;
+}
+
+.page-sidebar .widget-title h3,
+.page-sidebar .widget-title h4,
+.page-sidebar .widget-title h5,
+.page-sidebar .widget-title h6 {
+	color: #333333 !important;
+}
+
+.section-sidebar .widget-title h3,
+.section-sidebar .widget-title h4,
+.section-sidebar .widget-title h5,
+.section-sidebar .widget-title h6 {
+	color: #333333 !important;
+}
+
+#header .top-bar {
+	color: #999999 !important;
+}
+
+#header .top-bar .social-media a:hover i {
+	color: #999999 !important;
+}
+
+#header .top-bar .social-media a i {
+	color: #999999 !important;
+}
+
+footer#footer p,
+footer#footer span,
+footer#footer .textwidget {
+	color: #ffffff !important;
+}
+
+footer#footer {
+	background-color: #383737 !important;
+}
+
+#footer .cs-copyright {
+	background: #0c0c0c !important;
+}
+
+footer#footer a,
+footer#footer p {
+	color: #aaaaaa !important;
+}
+
+/* Panel Box */
+.panel-box {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    background: #e6e6e6;
+    width: 209px;
+    z-index: 9999;
+    text-align: center;
+    padding: 12px 0 14px 0;
+    transition: .5s;
+    border: 2px solid #2d87bc;
+}
+#panel-box.panel-control-btn-active {
+    left: -210px;
+}
+.panel-box .panel-control-btn {
+    height: 45px;
+    width: 45px;
+    background: #2d87bc;
+    position: absolute;
+    display: block;
+    right: -45px;
+    top: -1px;
+    z-index: 99;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-left: 2px solid #2d87bc;
+}
+.panel-box .panel-content img {
+    width: 40px;
+}
+.panel-box .panel-content a {
+    font-size: 16px;
+    color: #3C9C5C;
+    line-height: 1.3em;
+    transition: .25s;
+}
+.panel-box .panel-content a:hover {
+    color: #0E6E2E;
+}
+.panel-box .panel-content h3, .panel-box .panel-content p {
+    margin: 0;
+    line-height: 1.2em;
+}
+.panel-box .panel-content p a {
+    color: rgba(93,93,93,1);
+    font-size: 14px;
+}
+.panel-box .panel-content p a:hover {
+    color: rgba(0,0,0,.9);
+}
+
+/* Panel Box Ends */
